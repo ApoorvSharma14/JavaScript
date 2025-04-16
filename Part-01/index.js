@@ -172,10 +172,3 @@ console.log('20' / '10'); // 2*/
 //All other values are truthy values.
 
 
-/*const money = undefined; // falsy value
-if(money){
-    console.log("You are rich.");
-}
-else{
-    console.log("You are poor.");
-}*/
