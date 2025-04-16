@@ -79,3 +79,72 @@ console.log(firstName + " " + lastName); // Apoorv Sharma
 const age = 22;
 
 console.log(`My name is ${firstName} ${lastName} and I am ${age} years old.`); // My name is Apoorv Sharma and I am 22 years old.*/
+
+
+
+//Coding Challenge 1///////////
+
+/*const massMark = 78;
+const heightMark = 1.69; // in meters
+const massJohn = 92;    // in kg    
+const heightJohn = 1.95; // in meters
+const markBMI = massMark / (heightMark * heightMark);
+const johnBMI = massJohn / (heightJohn * heightJohn);
+console.log(markBMI, johnBMI); // 27.4 24.2 
+const markHigherBMI = markBMI > johnBMI; // true
+console.log(markHigherBMI); // true
+
+
+const massMark1 = 95;
+const heightMark1 = 1.88; // in meters
+const massJohn1 = 85;    // in kg
+const heightJohn1 = 1.76; // in meters
+const markBMI1 = massMark1 / (heightMark1 * heightMark1);
+const johnBMI1 = massJohn1 / (heightJohn1 * heightJohn1);
+console.log(markBMI1, johnBMI1); // 26.8 27.4
+const markHigherBMI1 = markBMI1 > johnBMI1; // false
+console.log(markHigherBMI1); // false*/
+
+//String Template Literals///////////////////////
+/*const firstName = 'Apoorv';
+const lastName = 'Sharma';
+const age = 22;
+const job = 'Software Engineer';
+const birthYear = 2003;
+console.log(`I am ${firstName} ${lastName} aged ${age}. I was born in ${birthYear} and currently workin as a ${job}`);*/
+
+// let number = String(10);
+// console.log(number,typeof number); // 10
+
+
+//If Else Statement///////////////////////
+
+/*const age = Number(prompt("Enter your age: "));
+console.log(age,typeof age); // 22 Number
+if(age>18){
+    alert("You can drive.");
+}
+else{
+    alert("You cannot drive.");
+}
+*/
+//Challenge 2///////////////////////
+
+/*const massMark1 = 95;
+const heightMark1 = 1.88; // in meters
+const massJohn1 = 85;    // in kg
+const heightJohn1 = 1.76; // in meters
+const markBMI1 = massMark1 / (heightMark1 * heightMark1);
+const johnBMI1 = massJohn1 / (heightJohn1 * heightJohn1);
+
+if(markBMI1>johnBMI1){
+    console.log(`Mark's BMI (${parseFloat(markBMI1.toFixed(1))}) is higher than John's (${parseFloat(johnBMI1.toFixed(1))}).`);
+}
+
+else{
+    console.log(`John's BMI (${parseFloat(johnBMI1.toFixed(1))}) is higher than Mark's (${parseFloat(markBMI1.toFixed(1))}).`);
+}*/
+
+
+// let a;
+// console.log(a+10); 
