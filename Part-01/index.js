@@ -170,3 +170,12 @@ console.log('20' / '10'); // 2*/
 //There are 5 falsy values in js 0,'',undefined,null,NaN
 
 //All other values are truthy values.
+
+
+/*const money = undefined; // falsy value
+if(money){
+    console.log("You are rich.");
+}
+else{
+    console.log("You are poor.");
+}*/
