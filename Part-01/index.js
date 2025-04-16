@@ -148,3 +148,25 @@ else{
 
 // let a;
 // console.log(a+10); 
+
+
+//type coercion///////////////////////
+//This is the process where js automacally converts one data type to another.
+
+//eg
+
+/*console.log('20' - 10); // 10
+console.log('20' + 10);//2110
+console.log('20' * '10'); // 200
+console.log('20' / '10'); // 2*/
+
+// let n = 1 + '1';
+// n = n - 1;
+// console.log(n); // 10
+
+
+//Truthy and Falsy Values///////////////////////
+
+//There are 5 falsy values in js 0,'',undefined,null,NaN
+
+//All other values are truthy values.
